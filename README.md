@@ -13,9 +13,6 @@ plugin was created to combat that issue.
 In a nutshell, it renders the text exactly as if you did `{{ 'some text'|escape('html') }}` except it takes the
 output from that and replaces &amp;amp;nbsp; with regular old &amp;nbsp; before returning the string to the view.
 
-Guzzle 3 is only maintained for bug and security fixes. Guzzle 3 will be EOL
-at some point in late 2015.
-
 # Install Instructions
 1. Clone or download the zip.
 2. Place the "escapenonnbsp" folder inside your craft/plugins directory.
